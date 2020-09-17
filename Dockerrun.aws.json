@@ -25,9 +25,9 @@
     {
       "name": "nginx",
       "image": "flyeagle100/multi-docker-nginx",
-      "hostname": "router",
+      "hostname": "nginx",
       "essential": true,
-      "portMapping": [
+      "portMappings": [
         {
           "hostPort": 80,
           "containerPort": 80
